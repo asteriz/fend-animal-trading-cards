@@ -1,1 +1,39 @@
 /* add your CSS here */
+html {
+	font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+img {
+	width: 300px;
+	height: auto;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+.container-card {
+	padding: 0 10px 10px 10px;
+	width: 300px;
+	border: 1px solid #ddd;
+	box-shadow: 5px 5px 1px 1px #eee;
+}
+
+.container-info {
+	margin-top: 10px;
+	padding: 0 10px 10px 10px;
+	width: 300px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	font-size: 0.5em;
+}
+
+.text-interesting {
+	font-style: italic;
+}
